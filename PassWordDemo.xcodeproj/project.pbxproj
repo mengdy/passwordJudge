@@ -15,6 +15,8 @@
 		BB1886C01F8E0A4D0078C266 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BB1886BE1F8E0A4D0078C266 /* LaunchScreen.storyboard */; };
 		BB1886CB1F8E0A4E0078C266 /* PassWordDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1886CA1F8E0A4E0078C266 /* PassWordDemoTests.m */; };
 		BB1886D61F8E0A4E0078C266 /* PassWordDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1886D51F8E0A4E0078C266 /* PassWordDemoUITests.m */; };
+		BB1886E61F8E10EA0078C266 /* UIView+Toast.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1886E51F8E10EA0078C266 /* UIView+Toast.m */; };
+		BB1886E91F8E127D0078C266 /* DYHelper.m in Sources */ = {isa = PBXBuildFile; fileRef = BB1886E81F8E127D0078C266 /* DYHelper.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,10 @@
 		BB1886D11F8E0A4E0078C266 /* PassWordDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PassWordDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB1886D51F8E0A4E0078C266 /* PassWordDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PassWordDemoUITests.m; sourceTree = "<group>"; };
 		BB1886D71F8E0A4E0078C266 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BB1886E41F8E10EA0078C266 /* UIView+Toast.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Toast.h"; sourceTree = "<group>"; };
+		BB1886E51F8E10EA0078C266 /* UIView+Toast.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Toast.m"; sourceTree = "<group>"; };
+		BB1886E71F8E127D0078C266 /* DYHelper.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DYHelper.h; sourceTree = "<group>"; };
+		BB1886E81F8E127D0078C266 /* DYHelper.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DYHelper.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +107,13 @@
 		BB1886AF1F8E0A4D0078C266 /* PassWordDemo */ = {
 			isa = PBXGroup;
 			children = (
+				BB1886E31F8E10EA0078C266 /* Toast */,
 				BB1886B31F8E0A4D0078C266 /* AppDelegate.h */,
 				BB1886B41F8E0A4D0078C266 /* AppDelegate.m */,
 				BB1886B61F8E0A4D0078C266 /* ViewController.h */,
 				BB1886B71F8E0A4D0078C266 /* ViewController.m */,
+				BB1886E71F8E127D0078C266 /* DYHelper.h */,
+				BB1886E81F8E127D0078C266 /* DYHelper.m */,
 				BB1886B91F8E0A4D0078C266 /* Main.storyboard */,
 				BB1886BC1F8E0A4D0078C266 /* Assets.xcassets */,
 				BB1886BE1F8E0A4D0078C266 /* LaunchScreen.storyboard */,
@@ -138,6 +147,15 @@
 				BB1886D71F8E0A4E0078C266 /* Info.plist */,
 			);
 			path = PassWordDemoUITests;
+			sourceTree = "<group>";
+		};
+		BB1886E31F8E10EA0078C266 /* Toast */ = {
+			isa = PBXGroup;
+			children = (
+				BB1886E41F8E10EA0078C266 /* UIView+Toast.h */,
+				BB1886E51F8E10EA0078C266 /* UIView+Toast.m */,
+			);
+			path = Toast;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,6 +291,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BB1886E91F8E127D0078C266 /* DYHelper.m in Sources */,
+				BB1886E61F8E10EA0078C266 /* UIView+Toast.m in Sources */,
 				BB1886B81F8E0A4D0078C266 /* ViewController.m in Sources */,
 				BB1886B51F8E0A4D0078C266 /* AppDelegate.m in Sources */,
 				BB1886B21F8E0A4D0078C266 /* main.m in Sources */,
