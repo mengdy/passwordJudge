@@ -41,7 +41,7 @@
  
 
 }
-//这是我做的一次练习，试试sourcetree的使用方法
+
 -(UILabel *)nameLabel{
 
     if (!_nameLabel) {
